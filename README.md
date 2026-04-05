@@ -58,7 +58,7 @@ I aim to build a strong career in Data Science and work on impactful real-world 
 
 ## 🔗 Live Website
 
-👉 Coming Soon (after deployment)
+👉 https://raunakverma07.netlify.app
 
 ---
 
