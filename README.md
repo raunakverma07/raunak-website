@@ -73,8 +73,8 @@ I aim to build a strong career in Data Science and work on impactful real-world 
 
 ## 📬 Connect With Me
 
-* LinkedIn: (Add your link here)
-* GitHub: https://github.com/your-username
+* LinkedIn: www.linkedin.com/in/raunakverma07
+* GitHub: https://github.com/raunakverma07
 
 ---
 
