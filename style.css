@@ -569,3 +569,105 @@ body{
   border-color: #38bdf8;
   box-shadow: 0 8px 18px rgba(0,0,0,0.35);
 }
+/* 🔹 Theme Variables */
+:root{
+  --bg: #0f172a;
+  --text: #ffffff;
+  --nav: rgba(15,23,42,0.8);
+  --primary: #38bdf8;
+}
+
+/* 🔹 Light Theme */
+.light{
+  --bg: #f8fafc;
+  --text: #0f172a;
+  --nav: rgba(255,255,255,0.8);
+  --primary: #0ea5e9;
+}
+
+/* 🔹 Body */
+body{
+  margin: 0;
+  background: var(--bg);
+  color: var(--text);
+  font-family: Arial, sans-serif;
+  transition: 0.3s;
+}
+
+/* 🔹 Navbar */
+.navbar{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  padding: 18px 60px;
+
+  background: var(--nav);
+  backdrop-filter: blur(10px);
+
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+/* 🔹 Logo */
+.logo{
+  font-size: 22px;
+  font-weight: 600;
+  letter-spacing: 1px;
+}
+
+/* 🔹 Nav links */
+.nav-links{
+  display: flex;
+  list-style: none;
+  gap: 35px;
+}
+
+/* 🔹 Links */
+.nav-links a{
+  position: relative;
+  text-decoration: none;
+  color: var(--text);
+  font-size: 15px;
+  letter-spacing: 0.5px;
+  padding: 5px 0;
+  transition: 0.3s;
+}
+
+/* 🔥 Underline hover */
+.nav-links a::after{
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -3px;
+
+  width: 0%;
+  height: 2px;
+  background: var(--primary);
+
+  transition: 0.3s;
+}
+
+.nav-links a:hover{
+  color: var(--primary);
+}
+
+.nav-links a:hover::after{
+  width: 100%;
+}
+
+/* 🔹 Theme Button */
+.theme-btn{
+  background: var(--primary);
+  border: none;
+  padding: 8px 12px;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: 0.3s;
+}
+
+.theme-btn:hover{
+  transform: scale(1.1);
+}
