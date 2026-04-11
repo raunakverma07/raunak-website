@@ -15,7 +15,7 @@
   <ul class="nav-links">
     <li><a href="#">Home</a></li>
     <li><a href="#projects">Projects</a></li>
-    <li><a href="#about">About</a></li>
+    <li><a href="#page">About</a></li>
     <li><a href="#contact">Contact</a></li>
   </ul>
 
@@ -51,7 +51,7 @@
 <body>
 
 
-<section class="page">
+<section class="page" id="page">
   <h1>About Me</h1>
 
   <p>
@@ -129,6 +129,72 @@
   <div class="card" onclick="location.href='journey.html'">
     <h2>Journey</h2>
   </div>
+
+</section>
+
+<section class="contact" id="contact">
+
+  <h1>Contact Me</h1>
+  <p class="contact-subtitle">Feel free to connect with me</p>
+
+  <div class="contact-container">
+
+    <!-- Email -->
+    <div class="contact-card">
+      <h3>Email</h3>
+      <a href="mailto:vermaraunak766@gmail.com">
+        vermaraunak766@gmail.com
+      </a>
+    </div>
+
+    <!-- LinkedIn -->
+    <div class="contact-card">
+      <h3>LinkedIn</h3>
+      <a href="https://www.linkedin.com/in/raunakverma07" target="_blank">
+        linkedin.com/in/raunakverma07
+      </a>
+    </div>
+
+    <!-- GitHub -->
+    <div class="contact-card">
+      <h3>GitHub</h3>
+      <a href="https://github.com/raunakverma07" target="_blank">
+        github.com/raunakverma07
+      </a>
+    </div>
+
+  </div>
+
+</section>
+
+
+<section class="feedback">
+
+  <h1>Feedback</h1>
+
+  <!-- Intro -->
+  <p class="feedback-text">
+    Hey there! I’m continuously working on improving this portfolio to make it better and more impactful. 
+    Your feedback, suggestions, or even a small thought would really help me grow and improve furthur.
+  </p>
+
+  <!-- Button -->
+  <button class="feedback-btn" onclick="toggleForm()">
+    Give Feedback
+  </button>
+
+  <!-- Form -->
+  <form action="https://formspree.io/f/mqegrqkd" method="POST" class="feedback-form">
+
+    <input type="text" name="name" placeholder="Your Name ">
+
+    <input type="email" name="email" placeholder="Your Email (valid)">
+
+    <textarea name="message" id="message" rows="5" placeholder="Write your feedback..." required></textarea>
+
+    <button type="submit">Submit</button>
+
+  </form>
 
 </section>
 
