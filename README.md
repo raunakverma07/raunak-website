@@ -4,7 +4,7 @@ This is my personal portfolio website showcasing my academic journey, skills, an
 
 ---
 
-## 🚀 About Me
+## 🚀 About Me 
 
 I am a B.Sc student with a strong interest in Data Science and technology.
 Currently learning and building skills in:
